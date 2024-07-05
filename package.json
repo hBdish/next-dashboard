@@ -30,7 +30,7 @@
     "@vercel/style-guide": "^6.0.0"
   },
   "engines": {
-    "node": ">=20.12.0"
+    "node": ">=20.10.0"
   },
   "prettier": "@vercel/style-guide/prettier"
 }
