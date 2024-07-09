@@ -5,6 +5,8 @@ interface Layout {
   children: ReactNode
 }
 
+export const experimental_ppr = true;
+
 export default function Layout({ children }: Layout) {
   return (
     <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
